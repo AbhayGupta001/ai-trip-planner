@@ -208,6 +208,7 @@ const App = () => {
         setDataHandler={setDataHandler}
       />
       <PersonalizedPlan data={data} hidden={hidden} />
+      <FAQThree/>
       <Footer />
     </div>
   );
